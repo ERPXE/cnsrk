@@ -1,0 +1,8 @@
+LABEL CNSRK
+MENU LABEL ^Carroll - Net Server Recovery Kit
+KERNEL er/plugins/cnsrk/vmlinuz
+INITRD er/plugins/cnsrk/initrd.lz
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/cnsrk ramdisk_size=200000 nolock
+TEXT HELP
+                 Carroll - Net Server Recovery Kit.
+ENDTEXT

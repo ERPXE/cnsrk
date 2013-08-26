@@ -1,0 +1,5 @@
+.:
+cnsrk.menu
+filelist.txt
+initrd.lz
+vmlinuz
